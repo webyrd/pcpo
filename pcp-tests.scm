@@ -51,7 +51,6 @@
   (run 1 (str) (pcpo str '(1 2 3 4 5 5 5) penn-tiles))
   '())
 
-; cray cray
 (test "a little different-ez"
   (run 1 (tile1 tile2 tile3)
     (fresh (u1 l1

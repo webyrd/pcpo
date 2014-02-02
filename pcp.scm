@@ -28,8 +28,8 @@
   [(,upper-ls ,lower-ls (,name . ,name-rest) ,tile-ls)
 ; This pattern overlaps with the singleton name list case
 ; Can explicitly check for a list of at length at least two,
-; in order to fail faster   
-   (fresh (upper lower upper-rest lower-rest)     
+; in order to fail faster
+   (fresh (upper lower upper-rest lower-rest)
      (lookupo upper lower name tile-ls)
      (appendo upper upper-rest upper-ls)
      (appendo lower lower-rest lower-ls)
